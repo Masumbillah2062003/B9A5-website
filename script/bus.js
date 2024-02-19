@@ -94,6 +94,9 @@ for(const sits of allSit){
                     const phoneNumber = document.getElementById('phone-number');
                     phoneNumber.removeAttribute('disabled');
                 }
+                else{
+                    alert('There are no more seats available for you !! Thank you !!')
+                }
 
                 if(clickButtonAdd.length == 4){
 
@@ -135,7 +138,7 @@ for(const sits of allSit){
                             })
                         }
                         else{
-                            alert('Invalid')
+                            alert('There is not our coupon code !! Please use the coupon code given above !!')
                             applyButton.setAttribute('disabled', true);
                         }
                     })
