@@ -153,7 +153,7 @@ function numberFunction(){
     const phoneNumber = document.getElementById('phone-number');
     const numberValue = phoneNumber.value;
 
-    if(numberValue.length >= 11){
+    if(numberValue.length >= 1){
         const next = document.getElementById('next');
         next.removeAttribute('disabled');
     }
